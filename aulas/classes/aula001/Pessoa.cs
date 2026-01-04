@@ -8,7 +8,7 @@ namespace aulas.classes.aula001 //caminho lógico da classe
     public class Pessoa //classes sempre começar com letra maiúscula
     {
         //cobrar apenas informações que serão, de fato, usadas
-        public string Nome { get; set; }
+        public string? Nome { get; set; }
         public int Idade { get; set; }
 
         public void apresentar()
