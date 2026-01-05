@@ -2,6 +2,16 @@
 using System.Runtime.Serialization;
 using aulas.classes.aula001;
 
+
+DateTime dataAtual = DateTime.Now.AddDays(5);
+Console.WriteLine(dataAtual.ToString("dd/MM/yyyy HH:mm"));
+
+
+
+
+
+
+
 // string apresentacao = "Olá, seja bem-vindo";
 // double altura = 1.80d;
 // decimal preco = 1.80m;
@@ -14,11 +24,11 @@ using aulas.classes.aula001;
 // Console.WriteLine("Valor da variavel condicao: " + condicao);
 
 
-int quantidade = 1;
-Console.WriteLine("Valor da variavel quantidade: " + quantidade);
+// int quantidade = 1;
+// Console.WriteLine("Valor da variavel quantidade: " + quantidade);
 
-quantidade = 20;
-Console.WriteLine("Valor da variavel quantidade: " + quantidade);
+// quantidade = 20;
+// Console.WriteLine("Valor da variavel quantidade: " + quantidade);
 
 
 
