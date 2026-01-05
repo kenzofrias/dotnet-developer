@@ -2,17 +2,23 @@
 using System.Runtime.Serialization;
 using aulas.classes.aula001;
 
-string apresentacao = "Olá, seja bem-vindo";
-int qunatidade = 1;
-double altura = 1.80d;
-decimal preco = 1.80m;
-bool condicao = true;
+// string apresentacao = "Olá, seja bem-vindo";
+// double altura = 1.80d;
+// decimal preco = 1.80m;
+// bool condicao = true;
 
-Console.WriteLine(apresentacao);
-Console.WriteLine("Valor da variavel quantidade: " + qunatidade);
-Console.WriteLine("Valor da variavel altura: " + altura.ToString("0.00"));
-Console.WriteLine("Valor da variavel preco: " + preco);
-Console.WriteLine("Valor da variavel condicao: " + condicao);
+// Console.WriteLine(apresentacao);
+// Console.WriteLine("Valor da variavel quantidade: " + quantidade);
+// Console.WriteLine("Valor da variavel altura: " + altura.ToString("0.00"));
+// Console.WriteLine("Valor da variavel preco: " + preco);
+// Console.WriteLine("Valor da variavel condicao: " + condicao);
+
+
+int quantidade = 1;
+Console.WriteLine("Valor da variavel quantidade: " + quantidade);
+
+quantidade = 20;
+Console.WriteLine("Valor da variavel quantidade: " + quantidade);
 
 
 
