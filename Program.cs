@@ -5,7 +5,5 @@ Pessoa p1 = new Pessoa();
 
 p1.Nome = "Kenzo";
 p1.Idade = 19;
+p1.Apresentar();
 
-Console.WriteLine($"Nome: {p1.Nome}");
-Console.WriteLine($"Idade: {p1.Idade}");
-p1.apresentar();
