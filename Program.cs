@@ -3,14 +3,35 @@ using System.Runtime.Serialization;
 using aulas.classes.aula001;
 
 
-string numero = "15-";
-int erro = 0;
+int quantidadeEmEstoque = 10;
+int quantidadeCompra = 40;
+bool possivelVenda = quantidadeEmEstoque >= quantidadeCompra;
 
-//se sucesso, substitui o 'erro' pelo numero convertido
-//se sem sucesso, manda o valor original colocado para erro
-Console.WriteLine(int.TryParse(numero, out erro));
-Console.WriteLine(erro);
-Console.WriteLine("Sucesso!");
+Console.WriteLine($"Quantidade em estoque: {quantidadeEmEstoque}");
+Console.WriteLine($"Quantidade para compra: {quantidadeCompra}");
+Console.WriteLine($"\nÉ possível realizar a compra? {possivelVenda}");
+
+if (possivelVenda)
+{
+    Console.WriteLine("\nVenda realizada!");
+}
+else
+{
+    Console.WriteLine("\nDesculpe, não temos a quantidade desejada em estoque.");
+}
+
+
+
+
+// OPERADORES INÍCIO
+// string numero = "15-";
+// int erro = 0;
+
+// //se sucesso, substitui o 'erro' pelo numero convertido
+// //se sem sucesso, manda o valor original colocado para erro
+// Console.WriteLine(int.TryParse(numero, out erro));
+// Console.WriteLine(erro);
+// Console.WriteLine("Sucesso!");
 
 
 // double a = 4/(2+2);
