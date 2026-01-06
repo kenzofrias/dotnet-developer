@@ -4,14 +4,18 @@ using aulas.classes.aula001;
 
 
 int quantidadeEmEstoque = 10;
-int quantidadeCompra = 40;
-bool possivelVenda = quantidadeEmEstoque >= quantidadeCompra;
+int quantidadeCompra = 0;
+bool possivelVenda = quantidadeEmEstoque >= quantidadeCompra && quantidadeCompra > 0;
 
 Console.WriteLine($"Quantidade em estoque: {quantidadeEmEstoque}");
 Console.WriteLine($"Quantidade para compra: {quantidadeCompra}");
 Console.WriteLine($"\nÉ possível realizar a compra? {possivelVenda}");
 
-if (possivelVenda)
+if (quantidadeCompra == 0)
+{
+    Console.WriteLine("\nVenda inválida!");
+}
+else if (possivelVenda)
 {
     Console.WriteLine("\nVenda realizada!");
 }
@@ -19,7 +23,6 @@ else
 {
     Console.WriteLine("\nDesculpe, não temos a quantidade desejada em estoque.");
 }
-
 
 
 
