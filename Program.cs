@@ -3,12 +3,31 @@ using System.Runtime.Serialization;
 using aulas.classes.aula001;
 
 
-DateTime dataAtual = DateTime.Now.AddDays(5);
-Console.WriteLine(dataAtual.ToString("dd/MM/yyyy HH:mm"));
+
+//sinal de igual é o operador de atribuição
+int a = 20;
+int b = 30;
+
+int c = a + b;
+Console.WriteLine($"A soma dos valores de a e b é {c}");
+
+c += 5;
+Console.WriteLine($"A soma anterior + 5 é {c}");
+
+c -= 10;
+Console.WriteLine($"A soma anterior - 10 é {c}");
+
+c *= 2;
+
+Console.WriteLine($"A subtração anterior x2 é {c}");
+
+c /= 10;
+
+Console.WriteLine($"A multiplicação anterior /10 é {c}");
 
 
-
-
+// DateTime dataAtual = DateTime.Now.AddDays(5);
+// Console.WriteLine(dataAtual.ToString("dd/MM/yyyy HH:mm"));
 
 
 
@@ -24,6 +43,7 @@ Console.WriteLine(dataAtual.ToString("dd/MM/yyyy HH:mm"));
 // Console.WriteLine("Valor da variavel condicao: " + condicao);
 
 
+
 // int quantidade = 1;
 // Console.WriteLine("Valor da variavel quantidade: " + quantidade);
 
@@ -37,4 +57,3 @@ Console.WriteLine(dataAtual.ToString("dd/MM/yyyy HH:mm"));
 // p1.Nome = "Kenzo";
 // p1.Idade = 19;
 // p1.Apresentar();
-
