@@ -3,22 +3,108 @@ using System.Runtime.Serialization;
 using aulas.classes.aula001;
 
 
-Console.WriteLine("Digite uma letra.");
-string letra = Console.ReadLine();
+bool choveu = false;
+bool estaTarde = false;
 
-switch (letra)
+if(!choveu && !estaTarde)
 {
-    case "a":
-    case "e":
-    case "i":
-    case "o":
-    case "u":
-        Console.WriteLine("Vogal!");
-        break;
-    default:
-        Console.WriteLine("Não é uma vogal!");
-        break;
+    Console.WriteLine("Vou pedalar");
 }
+else
+{
+    Console.WriteLine("Vou pedalar amanhã.");
+}
+
+
+// bool possuiPresencaMinima = false;
+// bool possuiMedia = false;
+
+// if (possuiPresencaMinima && possuiMedia)
+// {
+//     Console.WriteLine("Aprovado!");
+// }
+// else
+// {
+//     Console.WriteLine("Reprovado!");
+// }
+
+
+// Console.WriteLine("Você é maior de idade (s/n)?");
+// string idade = Console.ReadLine();
+
+// Console.WriteLine("Você possui autorização dos pais (s/n)?");
+// string autorizacao = Console.ReadLine();
+
+
+// if(idade == "s" || autorizacao == "s")
+// {
+//     Console.WriteLine("Você pode entrar!");
+// }
+// else
+// {
+//    Console.WriteLine("Você não pode entrar!");
+// }
+
+
+// Console.WriteLine("Você é maior de idade (s/n)?");
+// string idade = Console.ReadLine();
+
+// if(idade == "s" || )
+// {
+//     Console.WriteLine("Você pode entrar!");
+// }
+// else
+// {
+//     Console.WriteLine("Você possui autorização dos pais (s/n)?");
+//     string autorizacao = Console.ReadLine();
+
+//     if(autorizacao == "s")
+//     {
+//         Console.WriteLine("Você pode entrar!");
+//     }
+//     else
+//     {
+//         Console.WriteLine("Você não pode entrar!");
+//     }
+// }
+
+
+// Console.WriteLine("Você é maior de idade (s/n)?");
+// string idade = Console.ReadLine();
+
+// Console.WriteLine("Você possui autorização dos pais (s/n)?");
+// string autorizacao = Console.ReadLine();
+
+// if(idade == "s")
+// {
+//     Console.WriteLine("Você pode entrar!");
+// }
+// else if(idade == "n" && autorizacao == "s")
+// {
+//     Console.WriteLine("Você pode entrar!");
+// }
+// else
+// {
+//     Console.WriteLine("Você não pode entrar!");
+// }
+
+
+// Console.WriteLine("Digite uma letra.");
+// string letra = Console.ReadLine();
+
+// switch (letra)
+// {
+//     case "a":
+//     case "e":
+//     case "i":
+//     case "o":
+//     case "u":
+//         Console.WriteLine("Vogal!");
+//         break;
+//     default:
+//         Console.WriteLine("Não é uma vogal!");
+//         break;
+// }
 
 
 // if(letra == "a" || 
