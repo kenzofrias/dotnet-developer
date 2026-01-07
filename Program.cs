@@ -3,10 +3,32 @@ using System.Runtime.Serialization;
 using aulas.classes.aula001;
 using aulas.Operadores.Aritmeticos;
 
-// OPERADORES ARITMETICOS
-Calculador calc = new Calculador();
 
-calc.Raiz(9);
+// LAÇOS DE REPETIÇÃO
+
+int numero = 5;
+int contador = 1;
+
+while (contador <= 10)
+{
+    Console.WriteLine($"{numero} x {contador} = {numero * contador}");
+    contador++;
+}
+
+
+// int numero  = 5;
+
+// for(int contador = 1; contador <= 10; contador++)
+// {
+//     Console.WriteLine($"{numero} x {contador} = {numero * contador}");
+// }
+
+
+
+// OPERADORES ARITMETICOS
+// Calculador calc = new Calculador();
+
+// calc.Raiz(9);
 
 
 // int numero = 10;
