@@ -1,19 +1,55 @@
 ﻿using System.Runtime.CompilerServices;
 using System.Runtime.Serialization;
 using aulas.classes.aula001;
+using aulas.Operadores.Aritmeticos;
+
+// OPERADORES ARITMETICOS
+Calculador calc = new Calculador();
+
+calc.Raiz(9);
 
 
-bool choveu = false;
-bool estaTarde = false;
+// int numero = 10;
 
-if(!choveu && !estaTarde)
-{
-    Console.WriteLine("Vou pedalar");
-}
-else
-{
-    Console.WriteLine("Vou pedalar amanhã.");
-}
+// Console.WriteLine(numero);
+// Console.WriteLine("Incrementando o 10");
+// // numero = numero + 1;
+// numero++;
+// Console.WriteLine(++numero);
+
+// int numeroDois = 10;
+
+// Console.WriteLine(numeroDois);
+// Console.WriteLine("Incrementando o 10");
+// // numeroDois = numeroDois - 1;
+// numeroDois--;
+// Console.WriteLine(--numeroDois);
+
+
+
+// calc.Somar(10,20);
+// calc.Subtrair(30,10);
+// calc.Multiplicar(10,5);
+// calc.Dividir(100,10);
+// calc.Potencia(2,2);
+// calc.Seno(30);
+// calc.Cosseno(30);
+// calc.Tangente(30);
+
+
+
+// OPERADORES LÓGICOS
+// bool choveu = false;
+// bool estaTarde = false;
+
+// if(!choveu && !estaTarde)
+// {
+//     Console.WriteLine("Vou pedalar");
+// }
+// else
+// {
+//     Console.WriteLine("Vou pedalar amanhã.");
+// }
 
 
 // bool possuiPresencaMinima = false;
