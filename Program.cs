@@ -1,25 +1,39 @@
-﻿using System.Runtime.CompilerServices;
+﻿using System.ComponentModel;
+using System.Runtime.CompilerServices;
 using System.Runtime.Serialization;
 using aulas.classes.aula001;
 using aulas.Operadores.Aritmeticos;
 
 
 // LAÇOS DE REPETIÇÃO
+int soma = 0, numero = 0;
 
-int numero = 5;
-int contador = 1;
-
-while (contador <= 10)
+do
 {
-    Console.WriteLine($"{numero} x {contador} = {numero * contador}");
-    contador++;
+    Console.WriteLine("Digite um número para somar (0 para parar): ");
+    numero = Convert.ToInt32(Console.ReadLine());
 
-    if(contador > 5)
-    {
-        break;
-    }
-}
-Console.WriteLine("FIM DA PAPO!");
+    soma += numero;
+
+}while(numero != 0);
+
+Console.WriteLine(soma);
+
+
+// int numero = 5;
+// int contador = 1;
+
+// while (contador <= 10)
+// {
+//     Console.WriteLine($"{numero} x {contador} = {numero * contador}");
+//     contador++;
+
+//     if(contador > 5)
+//     {
+//         break;
+//     }
+// }
+// Console.WriteLine("FIM DA PAPO!");
 
 
 // int numero  = 5;
