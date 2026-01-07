@@ -6,18 +6,62 @@ using aulas.Operadores.Aritmeticos;
 
 
 // LAÇOS DE REPETIÇÃO
-int soma = 0, numero = 0;
+// string opcao;
+// bool exibirMenu = true;
 
-do
-{
-    Console.WriteLine("Digite um número para somar (0 para parar): ");
-    numero = Convert.ToInt32(Console.ReadLine());
+// while (exibirMenu)
+// {
+//     Console.Clear();
+//     Console.WriteLine("Digite a sua opção:");
+//     Console.WriteLine("1 - Cadastrar cliente");
+//     Console.WriteLine("2 - Buscar cliente");
+//     Console.WriteLine("3 - Apagar cliente");
+//     Console.WriteLine("4 - Encerrar");
 
-    soma += numero;
+//     opcao = Console.ReadLine();
 
-}while(numero != 0);
+//     switch (opcao)
+//     {
+//         case "1":
+//             Console.WriteLine("Cadastro de cliente");
+//             break;
+        
+//         case "2":
+//             Console.WriteLine("Busca de cliente");
+//             break;
+        
+//         case "3":
+//             Console.WriteLine("Apagar cliente");
+//             break;
+        
+//         case "4":
+//             Console.WriteLine("Encerrado!");
+//             exibirMenu = false;
+//             // Environment.Exit(0);
+//             break;
+        
+//         default:
+//             Console.WriteLine("Opção inválida.");
+//             break;
+//     }
+// }
 
-Console.WriteLine(soma);
+// Console.WriteLine("Programa encerrado!");
+
+
+
+// int soma = 0, numero = 0;
+
+// do
+// {
+//     Console.WriteLine("Digite um número para somar (0 para parar): ");
+//     numero = Convert.ToInt32(Console.ReadLine());
+
+//     soma += numero;
+
+// }while(numero != 0);
+
+// Console.WriteLine(soma);
 
 
 // int numero = 5;
