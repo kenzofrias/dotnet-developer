@@ -13,7 +13,13 @@ while (contador <= 10)
 {
     Console.WriteLine($"{numero} x {contador} = {numero * contador}");
     contador++;
+
+    if(contador > 5)
+    {
+        break;
+    }
 }
+Console.WriteLine("FIM DA PAPO!");
 
 
 // int numero  = 5;
