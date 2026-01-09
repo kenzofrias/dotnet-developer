@@ -1,13 +1,33 @@
-﻿using System.ComponentModel;
+﻿using System;
+using System.ComponentModel;
 using System.Runtime.CompilerServices;
 using System.Runtime.Serialization;
 using common.aulas.classes.aula001;
 using common.aulas.Operadores.Aritmeticos;
 
-Pessoa pessoa1 =  new Pessoa();
-pessoa1.Nome = "Gabriel";
-pessoa1.Idade = 29;
-pessoa1.Apresentar();
+
+
+
+
+
+// Estrutura obrigatória do dotnet 5 para baixo
+// namespace ExemploDotnet.NET5
+// {
+//     class Program
+//     {
+//         static void Main(string[] args)
+//         {
+//             Console.WriteLine("Hello word in Dotnet 5");
+//         }
+//     }
+// }
+
+
+
+// Pessoa pessoa1 =  new Pessoa();
+// pessoa1.Nome = "Gabriel";
+// pessoa1.Idade = 29;
+// pessoa1.Apresentar();
 
 
 
