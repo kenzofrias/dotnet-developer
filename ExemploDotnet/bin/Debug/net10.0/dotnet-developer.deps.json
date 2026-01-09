@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "dotnet-developer/1.0.0": {
+        "dependencies": {
+          "ExemploDotnetDeveloper.Common": "1.0.0"
+        },
+        "runtime": {
+          "dotnet-developer.dll": {}
+        }
+      },
+      "ExemploDotnetDeveloper.Common/1.0.0": {
+        "runtime": {
+          "ExemploDotnetDeveloper.Common.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "dotnet-developer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ExemploDotnetDeveloper.Common/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

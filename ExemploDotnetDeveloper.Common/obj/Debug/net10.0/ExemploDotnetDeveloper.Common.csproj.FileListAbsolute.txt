@@ -1,0 +1,12 @@
+C:\Users\kenzo\OneDrive\Documentos\T.I\Cursos_DIO\dotnet-developer\ExemploDotnetDeveloper.Common\bin\Debug\net10.0\ExemploDotnetDeveloper.Common.deps.json
+C:\Users\kenzo\OneDrive\Documentos\T.I\Cursos_DIO\dotnet-developer\ExemploDotnetDeveloper.Common\bin\Debug\net10.0\ExemploDotnetDeveloper.Common.dll
+C:\Users\kenzo\OneDrive\Documentos\T.I\Cursos_DIO\dotnet-developer\ExemploDotnetDeveloper.Common\bin\Debug\net10.0\ExemploDotnetDeveloper.Common.pdb
+C:\Users\kenzo\OneDrive\Documentos\T.I\Cursos_DIO\dotnet-developer\ExemploDotnetDeveloper.Common\obj\Debug\net10.0\ExemploDotnetDeveloper.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kenzo\OneDrive\Documentos\T.I\Cursos_DIO\dotnet-developer\ExemploDotnetDeveloper.Common\obj\Debug\net10.0\ExemploDotnetDeveloper.Common.AssemblyInfoInputs.cache
+C:\Users\kenzo\OneDrive\Documentos\T.I\Cursos_DIO\dotnet-developer\ExemploDotnetDeveloper.Common\obj\Debug\net10.0\ExemploDotnetDeveloper.Common.AssemblyInfo.cs
+C:\Users\kenzo\OneDrive\Documentos\T.I\Cursos_DIO\dotnet-developer\ExemploDotnetDeveloper.Common\obj\Debug\net10.0\ExemploDotnetDeveloper.Common.csproj.CoreCompileInputs.cache
+C:\Users\kenzo\OneDrive\Documentos\T.I\Cursos_DIO\dotnet-developer\ExemploDotnetDeveloper.Common\obj\Debug\net10.0\ExemploDotnetDeveloper.Common.sourcelink.json
+C:\Users\kenzo\OneDrive\Documentos\T.I\Cursos_DIO\dotnet-developer\ExemploDotnetDeveloper.Common\obj\Debug\net10.0\ExemploDotnetDeveloper.Common.dll
+C:\Users\kenzo\OneDrive\Documentos\T.I\Cursos_DIO\dotnet-developer\ExemploDotnetDeveloper.Common\obj\Debug\net10.0\refint\ExemploDotnetDeveloper.Common.dll
+C:\Users\kenzo\OneDrive\Documentos\T.I\Cursos_DIO\dotnet-developer\ExemploDotnetDeveloper.Common\obj\Debug\net10.0\ExemploDotnetDeveloper.Common.pdb
+C:\Users\kenzo\OneDrive\Documentos\T.I\Cursos_DIO\dotnet-developer\ExemploDotnetDeveloper.Common\obj\Debug\net10.0\ref\ExemploDotnetDeveloper.Common.dll
