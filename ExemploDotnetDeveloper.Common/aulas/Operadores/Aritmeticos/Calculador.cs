@@ -8,14 +8,25 @@ namespace common.aulas.Operadores.Aritmeticos
 {
     public class Calculador
     {
+        /// <summary>
+        /// Realiza uma soma de dois números
+        /// </summary>
+        /// <param name="x">Primeiro número inteiro para somar</param>
+        /// <param name="y">Segundo número iinteiro para somar</param>
         public void Somar(int x, int y)
         {
             Console.WriteLine($"{x} + {y} = {x + y}");
         }
-    
-        public void Subtrair(int x, int y)
+        /// <summary>
+        /// Realiza uma subtração de dois numeros
+        /// </summary>
+        /// <param name="x">Primeiro numero inteiro para subtrair</param>
+        /// <param name="y">Segundo numero inteiro para subtrair</param>
+        /// <returns>Retorna a subtração de x e y</returns>
+        public int Subtrair(int x, int y)
         {
             Console.WriteLine($"{x} - {y} = {x - y}");
+            return x - y;
         }
 
         public void Multiplicar(int x, int y)

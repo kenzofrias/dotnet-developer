@@ -5,9 +5,70 @@ using System.Runtime.Serialization;
 using common.aulas.classes.aula001;
 using common.aulas.Operadores.Aritmeticos;
 
+List<string> listaString = new List<string>();
+
+listaString.Add("SP"); //adiciona um elemento
+listaString.Add("BA");
+listaString.Add("MG");
+listaString.Add("RJ");
 
 
+Pessoa p = new Pessoa();
+p.Apresentar();
 
+Calculador c = new Calculador();
+c.Somar(5, 2);
+c.Subtrair(3, 4);
+
+
+// Arrays e Listas
+// Console.WriteLine($"Itens da minha lista: {listaString.Count} - Capacidade: {listaString.Capacity}");
+
+// listaString.Add("SC");
+
+// Console.WriteLine($"Itens da minha lista: {listaString.Count} - Capacidade: {listaString.Capacity}");
+
+// listaString.Remove("MG");
+
+// Console.WriteLine($"Itens da minha lista: {listaString.Count} - Capacidade: {listaString.Capacity}");
+
+
+// Console.WriteLine("Por FOR:");
+// for(int cont = 0; cont < listaString.Count; cont++)
+// {
+//     Console.WriteLine($"Posução Nº {cont} - {listaString[cont]}");
+// }
+
+// Console.WriteLine("Por FOEACH:");
+// foreach(string item in listaString)
+// {
+//     Console.WriteLine($"Valor --> {item}");
+// }
+
+
+// int[] arrayInteiros = new int[4]; 
+
+// arrayInteiros[0] = 72;
+// arrayInteiros[1] = 64;
+// arrayInteiros[2] = 50;
+// arrayInteiros[3] = 1;
+
+// Array.Resize(ref arrayInteiros, arrayInteiros.Length * 2);
+
+// Console.WriteLine("Percorrendo usando FOR:");
+// for(int contador = 0; contador < arrayInteiros.Length; contador++)
+// {
+//     Console.WriteLine($"Posição Nº {contador} - {arrayInteiros[contador]}");
+// }
+
+
+// Console.WriteLine("Percorrendo usando FOREACH:");
+// int posicao = 0;
+// foreach(int element in arrayInteiros)
+// {
+//     Console.WriteLine($"Posição 'foreach' Nº {posicao} - {element}");
+//     posicao++;
+// }
 
 
 // Estrutura obrigatória do dotnet 5 para baixo
