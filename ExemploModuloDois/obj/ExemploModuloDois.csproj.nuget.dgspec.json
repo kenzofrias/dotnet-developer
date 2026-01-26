@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kenzo\\OneDrive\\Documentos\\T.I\\Cursos_DIO\\dotnet-developer\\ExemploDotnetDeveloper.Common\\ExemploDotnetDeveloper.Common.csproj": {}
+    "C:\\Users\\kenzo\\OneDrive\\Documentos\\T.I\\Cursos_DIO\\dotnet-developer\\ExemploModuloDois\\ExemploModuloDois.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kenzo\\OneDrive\\Documentos\\T.I\\Cursos_DIO\\dotnet-developer\\ExemploDotnetDeveloper.Common\\ExemploDotnetDeveloper.Common.csproj": {
+    "C:\\Users\\kenzo\\OneDrive\\Documentos\\T.I\\Cursos_DIO\\dotnet-developer\\ExemploModuloDois\\ExemploModuloDois.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kenzo\\OneDrive\\Documentos\\T.I\\Cursos_DIO\\dotnet-developer\\ExemploDotnetDeveloper.Common\\ExemploDotnetDeveloper.Common.csproj",
-        "projectName": "ExemploDotnetDeveloper.Common",
-        "projectPath": "C:\\Users\\kenzo\\OneDrive\\Documentos\\T.I\\Cursos_DIO\\dotnet-developer\\ExemploDotnetDeveloper.Common\\ExemploDotnetDeveloper.Common.csproj",
+        "projectUniqueName": "C:\\Users\\kenzo\\OneDrive\\Documentos\\T.I\\Cursos_DIO\\dotnet-developer\\ExemploModuloDois\\ExemploModuloDois.csproj",
+        "projectName": "ExemploModuloDois",
+        "projectPath": "C:\\Users\\kenzo\\OneDrive\\Documentos\\T.I\\Cursos_DIO\\dotnet-developer\\ExemploModuloDois\\ExemploModuloDois.csproj",
         "packagesPath": "C:\\Users\\kenzo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kenzo\\OneDrive\\Documentos\\T.I\\Cursos_DIO\\dotnet-developer\\ExemploDotnetDeveloper.Common\\obj\\",
+        "outputPath": "C:\\Users\\kenzo\\OneDrive\\Documentos\\T.I\\Cursos_DIO\\dotnet-developer\\ExemploModuloDois\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\kenzo\\AppData\\Roaming\\NuGet\\NuGet.Config"

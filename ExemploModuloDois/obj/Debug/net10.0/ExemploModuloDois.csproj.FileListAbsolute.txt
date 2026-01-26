@@ -1,0 +1,15 @@
+C:\Users\kenzo\OneDrive\Documentos\T.I\Cursos_DIO\dotnet-developer\ExemploModuloDois\bin\Debug\net10.0\ExemploModuloDois.exe
+C:\Users\kenzo\OneDrive\Documentos\T.I\Cursos_DIO\dotnet-developer\ExemploModuloDois\bin\Debug\net10.0\ExemploModuloDois.deps.json
+C:\Users\kenzo\OneDrive\Documentos\T.I\Cursos_DIO\dotnet-developer\ExemploModuloDois\bin\Debug\net10.0\ExemploModuloDois.runtimeconfig.json
+C:\Users\kenzo\OneDrive\Documentos\T.I\Cursos_DIO\dotnet-developer\ExemploModuloDois\bin\Debug\net10.0\ExemploModuloDois.dll
+C:\Users\kenzo\OneDrive\Documentos\T.I\Cursos_DIO\dotnet-developer\ExemploModuloDois\bin\Debug\net10.0\ExemploModuloDois.pdb
+C:\Users\kenzo\OneDrive\Documentos\T.I\Cursos_DIO\dotnet-developer\ExemploModuloDois\obj\Debug\net10.0\ExemploModuloDois.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kenzo\OneDrive\Documentos\T.I\Cursos_DIO\dotnet-developer\ExemploModuloDois\obj\Debug\net10.0\ExemploModuloDois.AssemblyInfoInputs.cache
+C:\Users\kenzo\OneDrive\Documentos\T.I\Cursos_DIO\dotnet-developer\ExemploModuloDois\obj\Debug\net10.0\ExemploModuloDois.AssemblyInfo.cs
+C:\Users\kenzo\OneDrive\Documentos\T.I\Cursos_DIO\dotnet-developer\ExemploModuloDois\obj\Debug\net10.0\ExemploModuloDois.csproj.CoreCompileInputs.cache
+C:\Users\kenzo\OneDrive\Documentos\T.I\Cursos_DIO\dotnet-developer\ExemploModuloDois\obj\Debug\net10.0\ExemploModuloDois.sourcelink.json
+C:\Users\kenzo\OneDrive\Documentos\T.I\Cursos_DIO\dotnet-developer\ExemploModuloDois\obj\Debug\net10.0\ExemploModuloDois.dll
+C:\Users\kenzo\OneDrive\Documentos\T.I\Cursos_DIO\dotnet-developer\ExemploModuloDois\obj\Debug\net10.0\refint\ExemploModuloDois.dll
+C:\Users\kenzo\OneDrive\Documentos\T.I\Cursos_DIO\dotnet-developer\ExemploModuloDois\obj\Debug\net10.0\ExemploModuloDois.pdb
+C:\Users\kenzo\OneDrive\Documentos\T.I\Cursos_DIO\dotnet-developer\ExemploModuloDois\obj\Debug\net10.0\ExemploModuloDois.genruntimeconfig.cache
+C:\Users\kenzo\OneDrive\Documentos\T.I\Cursos_DIO\dotnet-developer\ExemploModuloDois\obj\Debug\net10.0\ref\ExemploModuloDois.dll

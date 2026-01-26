@@ -1,30 +1,11 @@
 {
   "version": 3,
   "targets": {
-    "net10.0": {
-      "ExemploDotnetDeveloper.Common/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v10.0",
-        "compile": {
-          "bin/placeholder/ExemploDotnetDeveloper.Common.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/ExemploDotnetDeveloper.Common.dll": {}
-        }
-      }
-    }
+    "net10.0": {}
   },
-  "libraries": {
-    "ExemploDotnetDeveloper.Common/1.0.0": {
-      "type": "project",
-      "path": "../ExemploDotnetDeveloper.Common/ExemploDotnetDeveloper.Common.csproj",
-      "msbuildProject": "../ExemploDotnetDeveloper.Common/ExemploDotnetDeveloper.Common.csproj"
-    }
-  },
+  "libraries": {},
   "projectFileDependencyGroups": {
-    "net10.0": [
-      "ExemploDotnetDeveloper.Common >= 1.0.0"
-    ]
+    "net10.0": []
   },
   "packageFolders": {
     "C:\\Users\\kenzo\\.nuget\\packages\\": {}
@@ -32,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kenzo\\OneDrive\\Documentos\\T.I\\Cursos_DIO\\dotnet-developer\\ExemploDotnet\\dotnet-developer.csproj",
-      "projectName": "dotnet-developer",
-      "projectPath": "C:\\Users\\kenzo\\OneDrive\\Documentos\\T.I\\Cursos_DIO\\dotnet-developer\\ExemploDotnet\\dotnet-developer.csproj",
+      "projectUniqueName": "C:\\Users\\kenzo\\OneDrive\\Documentos\\T.I\\Cursos_DIO\\dotnet-developer\\ExemploModuloDois\\ExemploModuloDois.csproj",
+      "projectName": "ExemploModuloDois",
+      "projectPath": "C:\\Users\\kenzo\\OneDrive\\Documentos\\T.I\\Cursos_DIO\\dotnet-developer\\ExemploModuloDois\\ExemploModuloDois.csproj",
       "packagesPath": "C:\\Users\\kenzo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\kenzo\\OneDrive\\Documentos\\T.I\\Cursos_DIO\\dotnet-developer\\ExemploDotnet\\obj\\",
+      "outputPath": "C:\\Users\\kenzo\\OneDrive\\Documentos\\T.I\\Cursos_DIO\\dotnet-developer\\ExemploModuloDois\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\kenzo\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -50,11 +31,7 @@
       "frameworks": {
         "net10.0": {
           "targetAlias": "net10.0",
-          "projectReferences": {
-            "C:\\Users\\kenzo\\OneDrive\\Documentos\\T.I\\Cursos_DIO\\dotnet-developer\\ExemploDotnetDeveloper.Common\\ExemploDotnetDeveloper.Common.csproj": {
-              "projectPath": "C:\\Users\\kenzo\\OneDrive\\Documentos\\T.I\\Cursos_DIO\\dotnet-developer\\ExemploDotnetDeveloper.Common\\ExemploDotnetDeveloper.Common.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {
