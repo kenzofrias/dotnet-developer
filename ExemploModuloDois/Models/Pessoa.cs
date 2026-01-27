@@ -9,7 +9,9 @@ namespace ExemploModuloDois.Models
     {
         public Pessoa()
         {
+            Console.WriteLine("Digite seu nome: ");
             Nome = Console.ReadLine();
+            Console.WriteLine("Digite seu sobrenome: ");
             Sobrenome = Console.ReadLine();
         }
         public Pessoa(string nome, string sobrenome)

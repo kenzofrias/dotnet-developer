@@ -2,12 +2,14 @@
 using ExemploModuloDois.Models;
 
 Pessoa p1 = new Pessoa(nome:"Kenzo", sobrenome:"Friás");
-Pessoa p2 = new Pessoa(nome:"Gabriel", sobrenome:"Oliveira");
+Pessoa p2 = new Pessoa(nome: "Gabriel", sobrenome: "Oliveira");
+// Pessoa p3 = new Pessoa();
 
 Curso cursoDeIngles = new Curso(nome: "Ingles");
 
 cursoDeIngles.AdicionarAluno(p1);
 cursoDeIngles.AdicionarAluno(p2);
+// cursoDeIngles.AdicionarAluno(p3);
 cursoDeIngles.ListarAlunos();
 
 

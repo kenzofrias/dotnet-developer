@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.AccessControl;
 using System.Threading.Tasks;
 
 namespace ExemploModuloDois.Models
@@ -33,12 +34,11 @@ namespace ExemploModuloDois.Models
 
         public void ListarAlunos()
         {
-            int ordem = 1;
+            
             Console.WriteLine($"Alunos matrículados no curso de {Nome}:");
-            foreach (Pessoa aluno in Alunos)
+            for(int count = 0; count < Alunos.Count; count++)
             {
-                Console.WriteLine($"{ordem} - {aluno.NomeCompleto}");
-                ordem++;
+                Console.WriteLine($"{count + 1} - {Alunos[count].NomeCompleto}");
             }
         }
     }
