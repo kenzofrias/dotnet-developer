@@ -7,6 +7,17 @@ namespace ExemploModuloDois.Models
 {
     public class Pessoa
     {
+        public Pessoa()
+        {
+            Nome = Console.ReadLine();
+            Sobrenome = Console.ReadLine();
+        }
+        public Pessoa(string nome, string sobrenome)
+        {
+            Nome = nome;
+            Sobrenome = sobrenome;
+        }
+
         //private - acessível apenas dentro das chaves em que ele estiver presente
         //public - acessível a qualquer um
         private string _nome;
